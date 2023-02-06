@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** Font Family ***/
+@font-face {
+    font-family: 'Outfit';
+    src: url('./static/Outfit-Regular.ttf');
+}
+
+body{
+    background: rgb(197, 207, 243);
+    font-family: 'Outfit';
+}
+
+body p{
+    font-size: 15px;
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    border-radius: 18px;
+    margin: 3em auto;
+    height: auto;
+    width: 65vw;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+.card-img{
+    margin-bottom: 1em;
+}
+
+.card-img img{
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.desc{
+    position: relative;
+    text-align: center;
+}
+
+.text-bold{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.text-light{
+    color: rgb(109, 108, 108);
+    font-weight: 400;
+}
+
+@media screen and (min-width:614px) {
+    .card-container{
+        width: calc(0.65 * 500px);
+    }
+}
+
+
