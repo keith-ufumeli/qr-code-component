@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution URL here]
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-css-grids-Q768ksCCEY)
 - Live Site URL: [Vercel](qr-code-component-vegitlia1-keith-ufumeli.vercel.app)
 
 ## My process
