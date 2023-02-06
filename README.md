@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL here]
 - Live Site URL: [Vercel](qr-code-component-vegitlia1-keith-ufumeli.vercel.app)
 
 ## My process
