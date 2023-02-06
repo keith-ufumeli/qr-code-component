@@ -12,7 +12,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: qr-code-component-vegitlia1-keith-ufumeli.vercel.app
+- Live Site URL: [Vercel](qr-code-component-vegitlia1-keith-ufumeli.vercel.app)
 
 ## My process
 
