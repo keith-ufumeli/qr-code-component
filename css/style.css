@@ -10,10 +10,31 @@
     src: url('./static/Outfit-Regular.ttf');
 }
 
+/*** To center the .card-container to the center of the page using
+grid ***/
+
 body{
-    background: rgb(197, 207, 243);
-    font-family: 'Outfit';
+font-family: 'Outfit';
+min-height: 100vh;
+display: grid;
+place-items: center;
+
+background: hsl(220, 15%, 55%);
 }
+
+/***
+
+To center .card-container on the page using flexbox:
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+**/
+
+
 
 body p{
     font-size: 15px;
@@ -25,9 +46,8 @@ body p{
     grid-template-columns: 1fr;
     background-color: #fff;
     border-radius: 18px;
-    margin: 3em auto;
     height: auto;
-    width: 65vw;
+    width: 20em;    /* 320px */
     padding: 1em;
     padding-bottom: 2em;
 }
@@ -45,6 +65,7 @@ body p{
 }
 
 .desc{
+    font-size: 15px;
     position: relative;
     text-align: center;
 }
@@ -59,10 +80,6 @@ body p{
     font-weight: 400;
 }
 
-@media screen and (min-width:614px) {
-    .card-container{
-        width: calc(0.65 * 500px);
-    }
-}
+
 
 
